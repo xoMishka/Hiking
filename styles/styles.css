@@ -1,0 +1,10 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'Zen';
+    src: url(/fonts/ZenAntique-Regular.ttf);
+}
+
+/* Global */
+:root { box-sizing: border-box; }
+*, ::before, ::after { box-sizing: inherit; }
+body { font-family: Zen, sans-serif; }
