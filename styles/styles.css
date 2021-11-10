@@ -38,6 +38,11 @@ footer { grid-area: footer; }
 }
 
 /* Navigation */
+.sticky {
+    position: sticky;
+    top: 0;
+}
+
 .nav-bar {
     display: flex;
 }
