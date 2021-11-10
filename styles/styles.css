@@ -4,6 +4,14 @@
     src: url(/fonts/ZenAntique-Regular.ttf);
 }
 
+/* Colors
+Black: #0B0C0D
+Light Tan: #D9B282
+Burnt Orange: #A66F3F
+Brown: #734226
+Dark Brown: #402A22
+*/
+
 /***** Global *****/
 :root { box-sizing: border-box; }
 *, ::before, ::after { box-sizing: inherit; }
@@ -26,6 +34,12 @@ footer { grid-area: footer; }
 }
 
 /***** Header *****/
+/* Banner */
+.banner {
+    display: block;
+    width: 100%;
+}
+
 /* Navigation */
 .nav-bar {
     display: flex;
@@ -47,10 +61,6 @@ footer { grid-area: footer; }
 }
 
 /***** Main *****/
-main {
-    overflow: auto;
-}
-
 /* Tables */
 
 /* Rating */
