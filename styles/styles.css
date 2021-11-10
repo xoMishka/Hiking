@@ -4,7 +4,61 @@
     src: url(/fonts/ZenAntique-Regular.ttf);
 }
 
-/* Global */
+/***** Global *****/
 :root { box-sizing: border-box; }
 *, ::before, ::after { box-sizing: inherit; }
 body { font-family: Zen, sans-serif; }
+
+/***** Wrapper *****/
+header { grid-area: header; }
+main { grid-area: main; }
+footer { grid-area: footer; }
+
+.wrapper {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas:
+        "header"
+        "main"
+        "footer";
+}
+
+/***** Header *****/
+/* Navigation */
+.nav-bar {
+    display: flex;
+    background-color: lightgoldenrodyellow;
+}
+
+.nav-divider {
+    flex: 1;
+}
+
+.nav-bar > li {
+    list-style: none;
+    padding: 1em;
+}
+
+.nav-bar > li > a {
+    text-decoration: none;
+    padding: .5em 1.5em;
+}
+
+/***** Main *****/
+main {
+    overflow: auto;
+}
+
+/* Tables */
+
+/* Rating */
+.checked {
+    color: gold;
+}
+
+/***** Footer *****/
+footer {
+    text-align: center;
+}
