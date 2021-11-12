@@ -9,7 +9,7 @@
 *, ::before, ::after { box-sizing: inherit; }
 body { 
     font-family: Zen, sans-serif; 
-    background-color: #D1BEAF;
+    background-color: #ddcfc4;
     margin: 0 auto;
     color: #32222D;
 }
@@ -151,5 +151,6 @@ th {
 
 /***** Footer *****/
 footer {
+    margin-top: 5rem;
     text-align: center;
 }
