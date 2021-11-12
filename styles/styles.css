@@ -9,8 +9,9 @@
 *, ::before, ::after { box-sizing: inherit; }
 body { 
     font-family: Zen, sans-serif; 
-    background-color: whitesmoke;
+    background-color: #D1BEAF;
     margin: 0 auto;
+    color: #32222D;
 }
 
 /***** Wrapper *****/
@@ -29,12 +30,24 @@ footer { grid-area: footer; }
         "footer";
 }
 
+/* Links */
+a {
+    text-decoration: none;
+    color: #712C41;
+    font-size: 1.15rem;
+}
+
+a:hover {
+    color: #035951;
+}
+
+
 /***** Header *****/
 /* Logo */
 .logo {
     letter-spacing: 2px;
     font-size: 18px;
-    border: 2px solid black;
+    border: 2px solid #01403A;
 }
 
 /* Navigation */
@@ -80,7 +93,7 @@ table > caption {
 }
 
 table, th, td {
-    border: 2px solid #592533;
+    border: 2px solid #01403A;
     border-collapse: collapse;
     text-align: center;
     padding: 10px 60px;
